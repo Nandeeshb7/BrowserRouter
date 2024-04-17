@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Commadity",
+      "email": "julie@yahoo.com",
+      "number": "08100000000"
+    },
+    {
+      "id": "2",
+      "name": "Pulses",
+      "email": "jameswilly@gmail.com",
+      "number": "08111111111"
+    },
+    {
+      "id": "3",
+      "name": "Fruits",
+      "email": "ahmedali012@gmail.com",
+      "number": "08106414297"
+    },
+    {
+      "id": "4",
+      "name": "Vegetables",
+      "email": "gracefunsho@gmail.com",
+      "number": "09033333333"
+    },
+    {
+      "id": "5",
+      "name": "Oil Seeds",
+      "email": "gracefunsho@gmail.com",
+      "number": "09033333333"
+    },
+    {
+      "id": "6",
+      "name": "Nandeesh B",
+      "email": "nandeeshb777@gmail.com",
+      "number": "0987654443"
+    },
+    {
+      "id": "7",
+      "name": "Manoj",
+      "email": "manojsana@gmail.com",
+      "number": "8765432"
+    },
+    {
+      "id": "8",
+      "name": "Vikky",
+      "email": "nandeeshb7@gmail.com",
+      "number": "5678"
+    },
+    {
+      "id": "9",
+      "name": "Nava",
+      "email": "nandeeshb777@gmail.com",
+      "number": "456789"
+    },
+    {
+      "id": "10",
+      "name": "Dasa",
+      "email": "nandeeshb7@gmail.com",
+      "number": "345678"
+    },
+    {
+      "id": "2",
+      "name": "Vikky",
+      "email": "nandeeshb7@gmail.com",
+      "number": "2345678"
+    },
+    {
+      "id": "3",
+      "name": "Nandeesh Ballanaguddam",
+      "email": "nandeeshb7@gmail.com",
+      "number": "3245678"
+    }
+  ]
+}
