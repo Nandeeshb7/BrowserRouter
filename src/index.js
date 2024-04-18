@@ -6,26 +6,44 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./App";
 import ProductsPage from "./Components/ProductsPage";
 import ListOfProduct from "./Components/ListOfProduct";
+import NewProductsList from "./Components/NewProductsList";
+import NewProductsDetails from "./Components/NewProductsDetails";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
     errorElement: <>404 page not found</>,
-    children: [
-      {
-        path: "/productspage/:profileId",
-        element: <ProductsPage />,
-      },
-    ],
+    // children: [
+    //   {
+    //     path: "/productspage/:profileId",
+    //     element: <ProductsPage />,
+    //   },
+    // ],
   },
   {
     path: "/productspage/:profileId",
     element: <ProductsPage />,
   },
   {
-    path: "/listofpoducts",
+    path: "/listofpoducts/:profileId",
     element: <ListOfProduct />,
+  },
+
+  {
+    path: "/newproductsList",
+    element: <NewProductsList />,
+    // children: [
+    //   {
+    //     path: "/productdetails/:productId",
+    //     element: <NewProductsDetails />,
+    //   },
+    // ],
+  },
+
+  {
+    path: "/productdetails/:productId",
+    element: <NewProductsDetails />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));

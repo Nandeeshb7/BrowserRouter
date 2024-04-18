@@ -4,73 +4,381 @@
       "id": "1",
       "name": "Commadity",
       "email": "julie@yahoo.com",
-      "number": "08100000000"
+      "number": "08100000000",
+      "products": [
+        {
+          "id": 1,
+          "title": "Commadity products",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "Commadity products imformation",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
       "id": "2",
       "name": "Pulses",
       "email": "jameswilly@gmail.com",
-      "number": "08111111111"
+      "number": "08111111111",
+      "products": [
+        {
+          "id": 1,
+          "title": "Pulses-1",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "Pulses-2",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
       "id": "3",
       "name": "Fruits",
       "email": "ahmedali012@gmail.com",
-      "number": "08106414297"
+      "number": "08106414297",
+      "products": [
+        {
+          "id": 1,
+          "title": "Fruits",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
       "id": "4",
-      "name": "Vegetables",
+      "name": "Vegitables",
       "email": "gracefunsho@gmail.com",
-      "number": "09033333333"
+      "number": "09033333333",
+      "products": [
+        {
+          "id": 1,
+          "title": "Vegitables",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "Vegitables-2",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
       "id": "5",
       "name": "Oil Seeds",
       "email": "gracefunsho@gmail.com",
-      "number": "09033333333"
+      "number": "09033333333",
+      "products": [
+        {
+          "id": 1,
+          "title": "Oil Seeds",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "Oil Seeds-2",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
       "id": "6",
       "name": "Nandeesh B",
       "email": "nandeeshb777@gmail.com",
-      "number": "0987654443"
+      "number": "0987654443",
+      "products": [
+        {
+          "id": 1,
+          "title": "Nandeesh B",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
       "id": "7",
       "name": "Manoj",
       "email": "manojsana@gmail.com",
-      "number": "8765432"
+      "number": "8765432",
+      "products": [
+        {
+          "id": 1,
+          "title": "Manoj",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "Manoj-999",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
       "id": "8",
       "name": "Vikky",
       "email": "nandeeshb7@gmail.com",
-      "number": "5678"
+      "number": "5678",
+      "products": [
+        {
+          "id": 1,
+          "title": "Vikky products",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
       "id": "9",
-      "name": "Nava",
+      "name": "Leaves",
       "email": "nandeeshb777@gmail.com",
-      "number": "456789"
+      "number": "456789",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
       "id": "10",
-      "name": "Dasa",
+      "name": "Tamarind",
       "email": "nandeeshb7@gmail.com",
-      "number": "345678"
+      "number": "345678",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Vikky",
+      "id": "11",
+      "name": "Cherry",
       "email": "nandeeshb7@gmail.com",
-      "number": "2345678"
+      "number": "2345678",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     },
     {
-      "id": "3",
-      "name": "Nandeesh Ballanaguddam",
+      "id": "12",
+      "name": "Grapes",
       "email": "nandeeshb7@gmail.com",
-      "number": "3245678"
+      "number": "3245678",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Lotus",
+      "email": "likhi@gmail.com",
+      "number": "77777777",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "DryFruits",
+      "email": "friutits@gmail.com",
+      "number": "888999777",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Groundnuts",
+      "email": "",
+      "number": "8899999",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Chillies",
+      "email": "nandy@gmail.com",
+      "number": "119191919191",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Sugar",
+      "email": "nandeeshbplt7@gmail.com",
+      "number": "45678",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Jagarry",
+      "email": "nandeeshbplt7@gmail.com",
+      "number": "34567890",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Onions",
+      "email": "organic@gmail.com",
+      "number": "90909090",
+      "products": [
+        {
+          "id": 1,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     }
   ]
 }

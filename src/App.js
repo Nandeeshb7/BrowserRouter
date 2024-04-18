@@ -36,7 +36,7 @@ function HomePage() {
       .catch((error) => {
         console.error(error);
       });
-  }, [postData]);
+  }, []);
 
   useEffect(() => {
     fetch("http://localhost:3000/users", {
@@ -68,7 +68,7 @@ function HomePage() {
                 {" "}
                 <NavLink
                   style={{ textDecoration: "none" }}
-                  to={`/productspage/${names.id}`}
+                  to={`/listofpoducts/${names.id}`}
                   key={names?.id}
                 >
                   {names?.name}
@@ -100,7 +100,6 @@ function HomePage() {
           <button type="submit">Save post</button>
         </form>
       </div>
-      {/* {postData} */}
       <Outlet />
     </div>
   );

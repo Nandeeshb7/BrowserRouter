@@ -1,10 +1,14 @@
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, useLocation } from "react-router-dom";
 
 export default function ProductsPage() {
   const params = useParams();
   const navigate = useNavigate();
-  console.log("parmas", params);
+  const location = useLocation();
+  const { hash, pathname, search } = location;
+  const routeId = pathname.split("/").pop();
+  console.log("parmas", routeId);
+
   return (
     <div>
       This is a ProductsPage
