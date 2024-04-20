@@ -19,10 +19,9 @@ export default function ListOfProduct() {
       .catch((error) => {
         console.error(error);
       });
-  }, []);
+  }, [id]);
   return (
     <div>
-      Details of the commadity {id}
       {productData?.map((productname) => (
         <li key={productname.id}>{productname.title}</li>
       ))}

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, Outlet, NavLink } from "react-router-dom";
+import { useNavigate, Outlet } from "react-router-dom";
 
 export default function NewProductsList() {
   // http://localhost:3002/products
@@ -38,8 +38,9 @@ export default function NewProductsList() {
           >
             {productname.title}
           </button>
-        ))}{" "}
+        ))}
       </div>
+      <Outlet />
     </div>
   );
 }

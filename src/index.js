@@ -14,21 +14,27 @@ const router = createBrowserRouter([
     path: "/",
     element: <HomePage />,
     errorElement: <>404 page not found</>,
+    children: [
+      {
+        path: "/listofpoducts/:profileId",
+        element: <ListOfProduct />,
+      },
+    ],
     // children: [
     //   {
-    //     path: "/productspage/:profileId",
-    //     element: <ProductsPage />,
+    //     path: "/productdetails/:productId",
+    //     element: <NewProductsDetails />,
     //   },
     // ],
   },
   {
-    path: "/productspage/:profileId",
+    path: "/productspage",
     element: <ProductsPage />,
   },
-  {
-    path: "/listofpoducts/:profileId",
-    element: <ListOfProduct />,
-  },
+  // {
+  //   path: "/listofpoducts/:profileId",
+  //   element: <ListOfProduct />,
+  // },
 
   {
     path: "/newproductsList",

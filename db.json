@@ -379,6 +379,32 @@
           "read": true
         }
       ]
+    },
+    {
+      "id": "20",
+      "name": "chillies",
+      "email": "",
+      "number": "098765"
+    },
+    {
+      "id": "21",
+      "name": "books",
+      "email": "",
+      "number": "098765",
+      "products": [
+        {
+          "id": 1,
+          "title": "Mistake",
+          "author": "Harper Lee",
+          "read": false
+        },
+        {
+          "id": 2,
+          "title": "Tools",
+          "author": "Harper Lee",
+          "read": true
+        }
+      ]
     }
   ]
 }
